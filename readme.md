@@ -35,9 +35,7 @@ Nodejs をインストールすれば良いです。
 
 ---
 
-## Nodejs インストールから Web アプリを実行する - デモ
-
-
+## Nodejs インストールから Web アプリを実行するまで - デモ
 
 --
 
@@ -183,7 +181,7 @@ res.json({keyname:"value"});
 --
 
 ###### 任意の json (リクエストヘッダ) を返答してみる - 1
-
+　
 ```
 router.get('/', function(req, res, next) {
 ```
